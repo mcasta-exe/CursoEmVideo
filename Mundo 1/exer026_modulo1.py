@@ -1,0 +1,7 @@
+f = str(input('Digite uma frase: ').strip().lower())
+c = f.count('a') # A letra 'a' dentro do () concorda com o comando lower()
+p1 = f.find('a')
+p2 = f.rfind('a')
+print ('A letra A aparece {} vezes na palavra {}' .format(c, f.capitalize()))
+print ('A letra A aparece na posição {} na primeira vez'. format(p1))
+print ('A letra A aparece na posição {} na última vez' .format(p2))
